@@ -4,32 +4,32 @@ A console-based C++ chat application for sending and receiving messages locally.
 
 ---
 
-### 🟢 User Management
+### 🟢 User Management :
 - Create users with unique usernames.  
 - Each user has a status: **Online** or **Offline**.  
 - Duplicate usernames are automatically prevented.
 
 ---
 
-### ✉️ Messaging
+### ✉️ Messaging :
 - **Send Messages:** Users can send messages with a **Title** and **Body**. Sent messages are stored in `_SentMessages`.  
 - **Receive Messages:** Users only receive messages when **Online**. Messages are stored in `_ReceivedMessages`.
 
 ---
 
-### 📄 Message History
+### 📄 Message History :
 - **Retrieve All Sent Messages:** View all messages sent by the user in a formatted display.  
 - **Retrieve All Received Messages:** View all messages received while online.
 
 ---
 
-### 🔄 Status Control
+### 🔄 Status Control :
 - Change user status at any time.  
 - Only **Online** users can receive messages.
 
 ---
 
-### 🛠 Data Structures
+### 🛠 Data Structures :
 
 #### 🗺 map
 - Stores messages as **Title → Body** pairs.  
@@ -44,7 +44,7 @@ A console-based C++ chat application for sending and receiving messages locally.
 
 ---
 
-### 🏗 Object-Oriented Concepts
+### 🏗 Object-Oriented Concepts :
 - **Class `clsUser`:** Encapsulates user data and behavior.  
 - **Encapsulation:** Private members with public methods controlling access.  
 - **Enum `enStatus`:** Represents Online/Offline status.  
@@ -53,7 +53,7 @@ A console-based C++ chat application for sending and receiving messages locally.
 
 ---
 
-### ⚡ Usage Example
+### ⚡ Usage Example :
 ```cpp
 int main()
 {
