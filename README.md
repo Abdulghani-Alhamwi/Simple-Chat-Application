@@ -55,6 +55,8 @@ A console-based C++ chat application for sending and receiving messages locally.
 
 ### ⚡ Usage Example
 ```cpp
+int main()
+{
 clsUser User1("Abdulghani", clsUser::Online);
 clsUser User2("Ali", clsUser::Online);
 
@@ -80,3 +82,4 @@ User2.RetriveAllSentMessages();
 // Change status
 User2.ChangeStatus(clsUser::OffLine);
 cout << "User2 Status: " << User2.GetStatus() << endl;
+}
