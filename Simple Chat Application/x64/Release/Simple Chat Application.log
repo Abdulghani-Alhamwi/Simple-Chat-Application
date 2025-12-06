@@ -1,29 +1,30 @@
 ﻿  Simple Chat Application.cpp
-C:\Users\User\Desktop\My Projects\Simple-Chat-Application\Simple Chat Application\clsString.h(43,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+D:\My Projects\Simple-Chat-Application\Simple Chat Application\clsString.h(43,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Simple%20Chat%20Application.cpp')
   
-C:\Users\User\Desktop\My Projects\Simple-Chat-Application\Simple Chat Application\clsString.h(48,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+D:\My Projects\Simple-Chat-Application\Simple Chat Application\clsString.h(48,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Simple%20Chat%20Application.cpp')
   
-C:\Users\User\Desktop\My Projects\Simple-Chat-Application\Simple Chat Application\clsString.h(60,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+D:\My Projects\Simple-Chat-Application\Simple Chat Application\clsString.h(60,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Simple%20Chat%20Application.cpp')
   
-C:\Users\User\Desktop\My Projects\Simple-Chat-Application\Simple Chat Application\clsString.h(197,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+D:\My Projects\Simple-Chat-Application\Simple Chat Application\clsString.h(197,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Simple%20Chat%20Application.cpp')
   
-C:\Users\User\Desktop\My Projects\Simple-Chat-Application\Simple Chat Application\clsString.h(328,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+D:\My Projects\Simple-Chat-Application\Simple Chat Application\clsString.h(328,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Simple%20Chat%20Application.cpp')
   
-C:\Users\User\Desktop\My Projects\Simple-Chat-Application\Simple Chat Application\clsString.h(376,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+D:\My Projects\Simple-Chat-Application\Simple Chat Application\clsString.h(376,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Simple%20Chat%20Application.cpp')
   
-C:\Users\User\Desktop\My Projects\Simple-Chat-Application\Simple Chat Application\clsUser.h(22,7): warning C4240: nonstandard extension used: access to 'clsUser::enStatus' now defined to be 'public', previously it was defined to be 'private'
+D:\My Projects\Simple-Chat-Application\Simple Chat Application\clsUser.h(20,7): warning C4240: nonstandard extension used: access to 'clsUser::enStatus' now defined to be 'public', previously it was defined to be 'private'
   (compiling source file 'Simple%20Chat%20Application.cpp')
-      C:\Users\User\Desktop\My Projects\Simple-Chat-Application\Simple Chat Application\clsUser.h(12,7):
+      D:\My Projects\Simple-Chat-Application\Simple Chat Application\clsUser.h(12,7):
       see declaration of 'clsUser::enStatus'
   
   Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 232 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  49 of 213 functions (23.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    23 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  Simple Chat Application.vcxproj -> C:\Users\User\Desktop\My Projects\Simple-Chat-Application\x64\Release\Simple Chat Application.exe
+  Simple Chat Application.vcxproj -> D:\My Projects\Simple-Chat-Application\x64\Release\Simple Chat Application.exe

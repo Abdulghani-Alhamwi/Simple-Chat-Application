@@ -16,26 +16,12 @@ private:
 	map<string,string> _RecievedMessages;
 	map<string,string> _SentMessages;
 
-	vector<string>_ListUsers;
-
 public:
 	enum enStatus { OffLine = 0, Online = 1 };
 
 	clsUser(string UserName , enStatus Status)
 	{
-		if(!_ListUsers.empty())
-		{
-			for (string s : _ListUsers)
-			{
-				if (UserName == s)
-				{
-					cout << "User already exist " << UserName;
-					return;
-				}
-			}
-		}
 		_Status = Status;
-
 		_UserName = UserName;
 		
 	}
